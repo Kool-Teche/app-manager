@@ -1,7 +1,7 @@
 const express = require('express');
 const { exec } = require('child_process');
 const app = express();
-const PORT = 8000;
+const PORT = 8080;
 
 app.use(express.static('public'));
 
